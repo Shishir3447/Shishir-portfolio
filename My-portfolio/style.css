@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Julee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Julee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Julee&family=Labrada&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Julee&family=Labrada&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    position: absolute;
+    background-color: rgb(187, 184, 184);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    transition: transform 0.3s ease-in;
+    margin-top: 10px;
+    height: 920px;
+    width: 300px;
+}
+
+.sidebar nav {
+    padding: 40px;
+    margin-top: 100px;
+
+
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 30px;
+    padding: 33px;
+    font-family: 'Julee', cursive;
+    font-family: 'Labrada', serif;
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    margin-left: 4px;
+    color: blue;
+
+}
+
+.main {
+    margin-top: 10px;
+    background-color: rgb(247, 0, 255);
+    width: 1900px;
+    height: 920px;
+}
+
+.container {
+    display: flex;
+}
+
+.infoContainer {
+    background-color: rgb(136, 165, 6);
+    height: 380px ;
+    width: 855px;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.devInfo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 232px;
+}
+
+.hello {
+    font-size: 57px;
+    font-family: Julee, cursive;
+    margin-top: 224px;
+} 
+
+.name {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Julee', cursive;
+}
+
+.about {
+
+    font-size: 25px;
+}
+
+
+.intro {
+    margin-top: 200px;
+    font-size: 25px;
+    padding: 20px;
+    margin-left: -97px;
+    font-family: 'Labrada', serif;
+}
+
+
+
+.intro h1 {
+    font-family: 'Julee', cursive;
+    margin-left: 400px;
+
+}
+
+.intro h2 {
+    font-family: 'Julee', cursive;
+    margin-left: 430px;
+
+}
+
+
+
+
+
+.intro p {
+    margin-top: 4px;
+    font-size: 25px;
+    padding: 20px;
+    margin-left: 442px;
+    font-family: 'Labrada', serif;
+
+}
+
+.list1 {
+    margin-top: -8px;
+    margin-left: 460px;
+    padding: 11px;
+    font-size: 20px;
+    font-family: 'Labrada', serif;
+
+}
+
+
+.sidebarGo {
+    transform: translate(-443px, 0px);
+}
+
+.hamburger {
+    position: absolute;
+    cursor: pointer;
+    top: 30px;
+    left: 13px;
+}
+
+.hum {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.cross {
+    margin-left: 227wpx;
+    margin-top: 10px;
+}
+
+.hundered {
+    width: 256px;
+    background-color: blueviolet;
+}
+
+.fifty {
+    width: 125px;
+    background-color: aqua;
+}
+
+
+
+    .devPic {
+        display: none;
+    }
+
